@@ -1,0 +1,19 @@
+﻿@model Car
+
+<div class="slide-content container">
+    <div class="card-wrapper">
+        <img src=@Model.ImageUrl alt=@Model.Brand + @Model.Model class="car-image" />
+        <div class="car-details">
+            <h3>
+                <span>@Model.Brand</span>
+                <span>@Model.Model</span>
+            </h3>
+            @foreach (string s in @Model.Features.Split(','))
+            {
+                <p class="fs-2"><span class="mr-sm-1"><i class="fa-solid fa-circle-check" style="color: #6be52a;"></i></span><span>@s</span></p>
+            }
+
+        <a asp-controller="Home" asp-action="Details" asp-route-id="@Model.Id" class="btn btn-primary active">Rent now</a>
+        </div>
+    </div>
+</div>

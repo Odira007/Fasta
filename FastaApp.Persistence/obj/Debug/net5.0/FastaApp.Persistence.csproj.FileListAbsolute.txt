@@ -1,0 +1,15 @@
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\bin\Debug\net5.0\FastaApp.Persistence.deps.json
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\bin\Debug\net5.0\FastaApp.Persistence.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\bin\Debug\net5.0\ref\FastaApp.Persistence.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\bin\Debug\net5.0\FastaApp.Persistence.pdb
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\bin\Debug\net5.0\FastaApp.Entities.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\bin\Debug\net5.0\FastaApp.Entities.pdb
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\obj\Debug\net5.0\FastaApp.Persistence.csproj.AssemblyReference.cache
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\obj\Debug\net5.0\FastaApp.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\obj\Debug\net5.0\FastaApp.Persistence.AssemblyInfoInputs.cache
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\obj\Debug\net5.0\FastaApp.Persistence.AssemblyInfo.cs
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\obj\Debug\net5.0\FastaApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\obj\Debug\net5.0\FastaApp.Persistence.csproj.CopyComplete
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\obj\Debug\net5.0\FastaApp.Persistence.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\obj\Debug\net5.0\ref\FastaApp.Persistence.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Persistence\obj\Debug\net5.0\FastaApp.Persistence.pdb

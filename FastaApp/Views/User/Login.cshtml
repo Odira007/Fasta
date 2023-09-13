@@ -1,0 +1,16 @@
+﻿@model FastaApp.Entities.User
+
+<form asp-action="Register" method="post" role="form">
+    <h4>Login to your Account</h4>
+    <div class="form-group">
+        <label asp-for="Email">First name</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password">First name</label>
+        <input asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+</form>

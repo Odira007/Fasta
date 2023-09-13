@@ -1,0 +1,272 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp\\FastaApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Entities\\FastaApp.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Entities\\FastaApp.Entities.csproj",
+        "projectName": "FastaApp.Entities",
+        "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Entities\\FastaApp.Entities.csproj",
+        "packagesPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Helpers\\FastaApp.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Helpers\\FastaApp.Helpers.csproj",
+        "projectName": "FastaApp.Helpers",
+        "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Helpers\\FastaApp.Helpers.csproj",
+        "packagesPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Entities\\FastaApp.Entities.csproj": {
+                "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Entities\\FastaApp.Entities.csproj"
+              },
+              "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Persistence\\FastaApp.Persistence.csproj": {
+                "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Persistence\\FastaApp.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Persistence\\FastaApp.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Persistence\\FastaApp.Persistence.csproj",
+        "projectName": "FastaApp.Persistence",
+        "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Persistence\\FastaApp.Persistence.csproj",
+        "packagesPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Entities\\FastaApp.Entities.csproj": {
+                "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Entities\\FastaApp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp\\FastaApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp\\FastaApp.csproj",
+        "projectName": "FastaApp",
+        "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp\\FastaApp.csproj",
+        "packagesPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Helpers\\FastaApp.Helpers.csproj": {
+                "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Helpers\\FastaApp.Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

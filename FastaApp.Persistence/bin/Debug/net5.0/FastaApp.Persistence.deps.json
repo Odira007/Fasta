@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FastaApp.Persistence/1.0.0": {
+        "dependencies": {
+          "FastaApp.Entities": "1.0.0"
+        },
+        "runtime": {
+          "FastaApp.Persistence.dll": {}
+        }
+      },
+      "FastaApp.Entities/1.0.0": {
+        "runtime": {
+          "FastaApp.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FastaApp.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FastaApp.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

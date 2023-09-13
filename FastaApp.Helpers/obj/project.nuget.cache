@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7Mg8kBcMxZkx9Xu7Cu5B8u6HCCtuYEyk9fwzr9jidMFSZQ8o0raKuYiZbHLjdvFsvDgcCN/lPwqa9392u9xSPw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Helpers\\FastaApp.Helpers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

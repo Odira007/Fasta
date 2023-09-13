@@ -1,0 +1,192 @@
+﻿@model CarFleetViewModel
+
+<div class="background-image">
+    <div class="hero-text ml-4">
+        <h1 class="w-50 text-white font-weight-bolder bg-image-header">Renting cars have never been this easy</h1>
+        <p class="w-50 text-white">
+            Embark on seamless journeys with Fasta. Amidst a dynamic backdrop,
+            our diverse vehicle selection ensures every ride matches your unique adventure
+        </p>
+    </div>
+    <div class="filter-container">
+        <div class="outer">
+            <ul class="space-around">
+                <li>
+                    <ul>
+                        <li><h6 class="size-one">PICK UP LOCATION</h6></li>
+                        <li>
+                            <select class="custom-select">
+                                @foreach (var car in Model.cars)
+                                {
+                                    <option class="">@car.RentalLocation</option>
+                                }
+                            </select>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><h6 class="size-one">PICK UP DATE</h6></li>
+                        <li><select class="custom-select"></select></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><h6 class="size-one">RETURN DATE</h6></li>
+                        <li><select class="custom-select"></select></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <button class="custom-btn-2">Search for cars</button>
+    </div>
+</div>
+
+<div class="mb-5 car-cards-carousel feat-container">
+    <div class="text-center carousel-header-text feat-child">
+        <h2 class="fs1">Our Featured Cars</h2>
+    </div>
+    <div class="slide-container">
+        @foreach (var car in Model.cars)
+        {
+            <partial name="_CarCard" model="car" />
+        }
+    </div>
+</div>
+
+<div class="d-flex justify-content-center text-center flex-column site-features">
+    <div class="custom-wwad">
+        <h2 class="">Why We Are different</h2>
+        <p class="hero-paragraph">
+            Discover the future of car rentals through our app – where seamless reservations,
+            a diverse vehicle selection, and transparent pricing unite for an unparalleled experience.
+        </p>
+    </div>
+
+    <div class="site-navs d-flex justify-content-center align-content-center">
+
+        <div class="navs d-flex justify-content-center align-content-center flex-column bg-white">
+            <i class="fa-solid fa-bookmark icons" style="color: #1f4590;"></i>
+            <h2 class="header">Easy Booking</h2>
+            <p class="events">Get inclined with the aesthetics from an immersive photo experience and find a place where you will like to live.</p>
+
+        </div>
+        <div class="navs d-flex justify-content-center align-content-center flex-column bg-white">
+            <i class="fa-solid fa-shield-halved icons" style="color: #1f4590;"></i>
+            <h2 class="header">Secure Payments</h2>
+            <p class="events">Here, you won't just provide an offer for the home you wish to sell. You will provide the best offers available.</p>
+        </div>
+        <div class="navs d-flex justify-content-center align-content-center flex-column bg-white">
+            <i class="fa-solid fa-location-dot icons" style="color: #1f4590;"></i>
+            <h2 class="header">24/7 Tracking</h2>
+            <p class="events">We’re creating a seamless online experience – from shopping on the largest rental network, to applying, to paying rent.</p>
+        </div>
+    </div>
+</div>
+
+<div class="wps">
+    <div class="wps-content">
+        <h2 class="">What Do People Say About Us?</h2>
+        <p class="">
+            Discover the future of car rentals through our app – where seamless reservations,
+            a diverse vehicle selection, and transparent pricing unite for an unparalleled experience.
+        </p>
+    </div>
+
+    <div class="quote-container">
+        <div class="grid-item grid-item-1">
+            <img src="~/Images/fasta-person.jpg" alt="" class="" />
+        </div>
+        <div class="grid-item grid-item-2">
+            <p class="">
+                Cars are more than a means of transportation; they are an extension of ourselves.
+                They mirror our tastes, our aspirations, and our personalities. A car can be a sleek,
+                high-speed rocket for the adrenaline junkie, a sturdy and reliable companion for the
+                practical-minded, or a luxurious chariot for those who appreciate the finer things in life.
+                It's not just about getting from point A to point B; it's about the journey, the experience,
+                and the freedom that comes with the open road - Sarah Anderson
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="ros-container">
+    <h2 class="">Read Our Stories</h2>
+    <div class="card-container">
+        <div class="custom-card">
+            <img src="~/Images/ros2.jpg" alt="" class="card-image" />
+            <div class="card-details">
+                <div class="tags"><a href="">Tags</a></div>
+                <p class="custom-card-header">Start a blog to reach your creative peak</p>
+                <p class="custom-card-body">
+                    Share your unforgettable road trip stories, insider travel tips,
+                    and captivating car experiences right here.
+                </p>
+                <p class="custom-card-footer"><span class="fom">Find Out More </span><span><i class="fa-solid fa-arrow-right" style="color: #000001;"></i></span></p>
+            </div>
+        </div>
+
+        <div class="custom-card">
+            <img src="~/Images/ros1.jpg" alt="" class="card-image" />
+            <div class="card-details">
+                <div class="tags"><a href="">Tags</a></div>
+                <p class="custom-card-header">Caring is the new marketing</p>
+                <p class="custom-card-body">
+                    it's not just about providing wheels; it's about ensuring your journey is safe,
+                    convenient, and memorable.
+                </p>
+                <p class="custom-card-footer"><span class="fom">Find Out More </span><span><i class="fa-solid fa-arrow-right" style="color: #000001;"></i></span></p>
+            </div>
+        </div>
+
+        <div class="custom-card">
+            <img src="~/Images/ros3.jpg" alt="" class="card-image" />
+            <div class="card-details">
+                <div class="tags"><a href="">Tags</a></div>
+                <p class="custom-card-header">Starting your traveling blog with Vasco</p>
+                <p class="custom-card-body">
+                    Embark on a journey of storytelling excellence with our car rental app.
+                    Vasco invites you to share your adventures, tips, and discoveries.
+                </p>
+                <p class="custom-card-footer"><span class="fom">Find Out More </span><span><i class="fa-solid fa-arrow-right" style="color: #000001;"></i></span></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="find-next">
+    <h2 class="header">Find Your Next Long Drive Now!</h2>
+    <div class="space-between">
+
+        <div class="filter-options">
+            <ul class="space-around">
+                <li>
+                    <ul>
+                        <li><h6 class="size-one">PICK UP LOCATION</h6></li>
+                        <li>
+                            <select class="custom-select">
+                                @foreach (var car in Model.cars)
+                                {
+                                    <option class="">@car.RentalLocation</option>
+                                }
+                            </select>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><h6 class="size-one">PICK UP DATE</h6></li>
+                        <li><select class="custom-select"></select></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><h6 class="size-one">RETURN DATE</h6></li>
+                        <li><select class="custom-select"></select></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <button class="custom-btn-2">Search for cars</button>
+    </div>
+</div>

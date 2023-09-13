@@ -1,0 +1,12 @@
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\bin\Debug\net5.0\FastaApp.Entities.deps.json
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\bin\Debug\net5.0\FastaApp.Entities.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\bin\Debug\net5.0\ref\FastaApp.Entities.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\bin\Debug\net5.0\FastaApp.Entities.pdb
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\obj\Debug\net5.0\FastaApp.Entities.csproj.AssemblyReference.cache
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\obj\Debug\net5.0\FastaApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\obj\Debug\net5.0\FastaApp.Entities.AssemblyInfoInputs.cache
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\obj\Debug\net5.0\FastaApp.Entities.AssemblyInfo.cs
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\obj\Debug\net5.0\FastaApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\obj\Debug\net5.0\FastaApp.Entities.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\obj\Debug\net5.0\ref\FastaApp.Entities.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\obj\Debug\net5.0\FastaApp.Entities.pdb
