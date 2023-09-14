@@ -33,6 +33,8 @@
     ".NETCoreApp,Version=v5.0": {
       "FastaApp/1.0.0": {
         "dependencies": {
+          "FastaApp.Core": "1.0.0",
+          "FastaApp.Entities": "1.0.0",
           "FastaApp.Helpers": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
           "Microsoft.AspNetCore.Identity.UI": "5.0.17",
@@ -1907,6 +1909,18 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "FastaApp.Core/1.0.0": {
+        "dependencies": {
+          "FastaApp.Entities": "1.0.0",
+          "FastaApp.Helpers": "1.0.0"
+        },
+        "runtime": {
+          "FastaApp.Core.dll": {}
+        },
+        "compile": {
+          "FastaApp.Core.dll": {}
         }
       },
       "FastaApp.Entities/1.0.0": {
@@ -4528,6 +4542,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "FastaApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "FastaApp.Entities/1.0.0": {
       "type": "project",

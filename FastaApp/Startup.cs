@@ -11,6 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FastaApp.Core.Interfaces;
+using FastaApp.Core.Implementations;
 
 namespace FastaApp
 {
@@ -31,6 +33,7 @@ namespace FastaApp
             //services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<AppDbContext>();
 
             services.AddScoped<ICarRepository, CarRepository>();
+            services.AddScoped<IUserService, UserService>();
 
             services.AddHttpContextAccessor();
             services.AddSession();

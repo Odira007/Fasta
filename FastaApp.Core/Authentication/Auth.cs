@@ -8,11 +8,11 @@ using FastaApp.Persistence;
 
 namespace FastaApp.Core.Authentication
 {
-    public class Auth
+    public static class Auth
     {
-        public User currentUser { get; set; }
+        public static User currentUser { get; set; }
 
-        public bool Login(string email, string password)
+        public static bool Login(string email, string password)
         {
             var user = DataStore.Users.FirstOrDefault(x => x.Email == email && x.Password == password);
 
@@ -23,7 +23,7 @@ namespace FastaApp.Core.Authentication
                 return true;
             }
         }
-        public void Logout()
+        public static void Logout()
         {
             currentUser = null;
         }

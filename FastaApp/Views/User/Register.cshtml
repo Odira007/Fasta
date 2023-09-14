@@ -2,45 +2,56 @@
 
 <form asp-action="Register" method="post" role="form">
     <h4>Create a New Account</h4>
+    <p>Input field labels suffiexed with an asterik(*) indicate required fields</p>
     <div class="form-group">
-        <label asp-for="FirstName">First name</label>
-        <input asp-for="FirstName" class="form-control" />
+        <span><label asp-for="FirstName">First name</label></span><span class="text-danger">*</span>
+        <input asp-for="FirstName" class="form-control w-50" />
         <span asp-validation-for="FirstName" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="LastName">First name</label>
-        <input asp-for="LastName" class="form-control" />
+        <label asp-for="LastName">Last name</label>
+        <input asp-for="LastName" class="form-control w-50" />
         <span asp-validation-for="LastName" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="UserName">First name</label>
-        <input asp-for="UserName" class="form-control" />
+        <label asp-for="UserName">Username</label>
+        <input asp-for="UserName" class="form-control w-50" />
         <span asp-validation-for="UserName" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="Email">First name</label>
-        <input asp-for="Email" class="form-control" />
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" class="form-control w-50" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="PhoneNumber">First name</label>
-        <input asp-for="PhoneNumber" class="form-control" />
+        <label asp-for="PhoneNumber">Phone number</label>
+        <input asp-for="PhoneNumber" class="form-control w-50" />
         <span asp-validation-for="PhoneNumber" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="Password">First name</label>
-        <input asp-for="Password" class="form-control" />
+        <label asp-for="Password">Password</label>
+        <input asp-for="Password" class="form-control w-50" type="password"/>
         <span asp-validation-for="Password" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="ConfirmPassword">First name</label>
-        <input asp-for="ConfirmPassword" class="form-control" />
+        <label asp-for="ConfirmPassword">Confirm password</label>
+        <input asp-for="ConfirmPassword" class="form-control w-50" type="password"/>
         <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
     </div>
+
+    <button type="submit" class="btn btn-primary active mb-2">Register</button>
+    <div class="form-group">
+        <p>
+            <span>Already have an account? </span>
+            <span><a asp-action="Login" asp-controller="User" id="register">Login</a></span>
+        </p>
+    </div>
 </form>
+
+@section HideFooter {}

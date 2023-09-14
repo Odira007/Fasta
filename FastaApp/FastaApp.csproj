@@ -16,6 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FastaApp.Core\FastaApp.Core.csproj" />
+    <ProjectReference Include="..\FastaApp.Entities\FastaApp.Entities.csproj" />
     <ProjectReference Include="..\FastaApp.Helpers\FastaApp.Helpers.csproj" />
   </ItemGroup>
 

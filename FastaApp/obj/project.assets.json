@@ -2129,6 +2129,20 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "FastaApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "FastaApp.Entities": "1.0.0",
+          "FastaApp.Helpers": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FastaApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FastaApp.Core.dll": {}
+        }
+      },
       "FastaApp.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -7489,6 +7503,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "FastaApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../FastaApp.Core/FastaApp.Core.csproj",
+      "msbuildProject": "../FastaApp.Core/FastaApp.Core.csproj"
+    },
     "FastaApp.Entities/1.0.0": {
       "type": "project",
       "path": "../FastaApp.Entities/FastaApp.Entities.csproj",
@@ -7507,6 +7526,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "FastaApp.Core >= 1.0.0",
+      "FastaApp.Entities >= 1.0.0",
       "FastaApp.Helpers >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.17",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.17",
@@ -7542,6 +7563,12 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Core\\FastaApp.Core.csproj": {
+              "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Core\\FastaApp.Core.csproj"
+            },
+            "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Entities\\FastaApp.Entities.csproj": {
+              "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Entities\\FastaApp.Entities.csproj"
+            },
             "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Helpers\\FastaApp.Helpers.csproj": {
               "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Helpers\\FastaApp.Helpers.csproj"
             }
