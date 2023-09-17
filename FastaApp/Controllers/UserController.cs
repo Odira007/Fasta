@@ -6,15 +6,18 @@ using System.Threading.Tasks;
 using FastaApp.Entities;
 using FastaApp.Core.Interfaces;
 using FastaApp.Core.Authentication;
+using FastaApp.Helpers;
 
 namespace FastaApp.Controllers
 {
     public class UserController : Controller
     {
         private readonly IUserService _userService;
-        public UserController(IUserService userService)
+        private readonly RandomColor _randomColor;
+        public UserController(IUserService userService, RandomColor randomColor)
         {
             _userService = userService;
+            _randomColor = randomColor;
         }
         public IActionResult Register()
         {
@@ -26,7 +29,10 @@ namespace FastaApp.Controllers
         {
             if (ModelState.IsValid)
             {
+                user.ProfileColor = _randomColor.GetRandomColor();
                 _userService.CreateUser(user);
+                Auth.IsSignedIn = true;
+                Auth.currentUser = user;
                 return RedirectToAction("Index", "Home");
             }
             else
@@ -45,13 +51,20 @@ namespace FastaApp.Controllers
         {
             if (Auth.Login(user.Email, user.Password))
             {
+                user.ProfileColor = _randomColor.GetRandomColor();
                 return RedirectToAction("Index", "Home");
             }
             else
             {
-                ViewBag.UnknownUserMessage = "Email or password was not found";
+                ModelState.AddModelError("UnknownUser", "Email or Password was not found.");
                 return View(user);
             }
+        }
+
+        public IActionResult Logout()
+        {
+            Auth.Logout();
+            return RedirectToAction("Login", "User");
         }
     }
 }

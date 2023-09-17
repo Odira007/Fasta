@@ -5,12 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using FastaApp.Entities;
 using FastaApp.Persistence;
+using FastaApp.Helpers;
+using System.IO;
 
 namespace FastaApp.Core.Authentication
 {
-    public static class Auth
+    public class Auth
     {
         public static User currentUser { get; set; }
+        public static bool IsSignedIn { get; set; }
 
         public static bool Login(string email, string password)
         {
@@ -20,12 +23,14 @@ namespace FastaApp.Core.Authentication
             else
             {
                 currentUser = user;
+                IsSignedIn = true;
                 return true;
             }
         }
         public static void Logout()
         {
             currentUser = null;
+            IsSignedIn = false;
         }
     }
 

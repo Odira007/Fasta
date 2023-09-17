@@ -1,10 +1,54 @@
 ﻿@model Car
 
-<div class="container">
-    <div>
-        <img src=@Model.ImageUrl alt=@Model.Brand + @Model.Model class="w-100 h-75 add-object-style"/>
-        <p>
-            @Model.Description
-        </p>
+<div class="container-fluid mt-5 d-cont">
+    <div class="cust-dc mb-5">
+        <div class="">
+            <img class="detail-pg-car" src="@Model.RealImage" alt=@Model.Brand @Model.Model/>
+        </div>
+        <div class="d-flex flex-column details-sect">
+            <h2>@Model.Brand @Model.Model @Model.EngineType @Model.Year</h2>
+            <p>@Model.HorsepowerHP (@Model.HorsePowerKW) | @Model.Transmission | Available from: @Model.AvailableFrom</p>
+            <p class="car-desc">@Model.Description</p>
+            <p class=""><span class="price-per-day">@Model.PricePerDay.ToString("c") </span><span>Per Day</span></p>
+            <button class="d-rent-now">rent now</button>
+        </div>
+    </div>
+
+    <div class="more-features mb-5">
+        <div class="temp">
+            <div class="single-feature">
+                <span class="material-symbols-outlined">acute</span>
+                <h4>Mileage</h4>
+                <p>@Model.Mileage mpg</p>
+            </div>
+            <div class="single-feature">
+                <span class="material-symbols-outlined">palette</span>
+                <h4>Color</h4>
+                <p>@Model.Color</p>
+            </div>
+            <div class="single-feature">
+                <span class="material-symbols-outlined">directions_car</span>
+                <h4>Body style</h4>
+                <p>@Model.BodyStyle</p>
+            </div>
+            <div class="single-feature">
+                <span class="material-symbols-outlined">electric_car</span>
+                <h4>Condition</h4>
+                <p>@Model.Condition</p>
+            </div>
+            <div class="single-feature no-right-border">
+                <span class="material-symbols-outlined">move_location</span>
+                <h4>GPS</h4>
+                <p>@Model.Gps</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column justify-content-center align-content-center w-100 reservation-sect text-center">
+        <h2>Reserve this car today!</h2>
+        <p class="mb-4">Seize the opportunity and secure your reservation now! Hurry, our cars are in high demand and booking quickly.</p>
+        <button class="d-save-now">save now</button>
     </div>
 </div>
+
+@section HideFooter {}

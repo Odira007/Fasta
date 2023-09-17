@@ -1,26 +1,31 @@
 ﻿@model FastaApp.Entities.User
 
-<form asp-action="Login" method="post" role="form">
-    <h4>Login to your Account</h4>
-    <div class="form-group">
-        <label asp-for="Email">Email</label>
-        <input asp-for="Email" class="form-control w-50" />
+    <div class="login-reg-container">
+        <form asp-action="Login" method="post" role="form" class="add-form-top-margin">
+            <h4>Login to your Account</h4>
+            <div class="form-group">
+                <label asp-for="Email">Email</label>
+                <input asp-for="Email" class="form-control w-75" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password">Password</label>
+                <input asp-for="Password" class="form-control w-75" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary active">Log in</button>
+            </div>
+
+            <div class="form-group">
+                <p>
+                    <a asp-action="Register" asp-controller="User" id="register">Register as a new user</a>
+                </p>
+            </div>
+        </form>
+        <div class="side-image">
+            <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2FyfGVufDB8fDB8fHww&w=1000&q=80" alt="side pic" />
+        </div>
+
     </div>
 
-    <div class="form-group">
-        <label asp-for="Password">Password</label>
-        <input asp-for="Password" class="form-control w-50" />
-    </div>
-
-    <div class="form-group">
-        <button type="submit" class="btn btn-primary active">Log in</button>
-    </div>
-
-    <div class="form-group">
-        <p>
-            <a asp-action="Register" asp-controller="User" id="register">Register as a new user</a>
-        </p>
-    </div>
-</form>
-
-@section HideFooter {}
+    @section HideFooter {}

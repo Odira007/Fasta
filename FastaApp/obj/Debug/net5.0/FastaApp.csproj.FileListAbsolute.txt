@@ -177,3 +177,4 @@ C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\obj\Debug\net5.0\R
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\FastaApp.Core.dll
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\FastaApp.Core.pdb
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\user.json
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\obj\Debug\net5.0\Razor\Views\Shared\_SignInPartial.cshtml.g.cs

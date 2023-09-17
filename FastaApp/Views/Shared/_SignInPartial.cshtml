@@ -1,0 +1,26 @@
+﻿@using FastaApp.Core.Authentication
+@using FastaApp.Helpers
+
+@inject RandomColor _random
+
+<ul class="navbar-nav">
+    @if (Auth.IsSignedIn)
+    {
+        <li class="nav-item">
+            <a id="manage" class="nav-link text-white" title="Manage">
+                <div class="loggedin-user-initial d-flex justify-content-center align-items-center text-white" style="background-color: @Auth.currentUser.ProfileColor;">@Auth.currentUser.UserName.Substring(0, 1).ToUpper()</div>
+            </a>
+        </li>
+        <li class="nav-item">
+            <form id="logoutForm" class="form-inline" asp-action="Logout" asp-controller="User">
+                <button id="logout" type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="btn btn-primary active" asp-controller="User" asp-action="Login">Sign in</a>
+        </li>
+    }
+</ul>

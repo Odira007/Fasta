@@ -13,6 +13,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using FastaApp.Core.Interfaces;
 using FastaApp.Core.Implementations;
+using FastaApp.Helpers;
 
 namespace FastaApp
 {
@@ -34,6 +35,7 @@ namespace FastaApp
 
             services.AddScoped<ICarRepository, CarRepository>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<RandomColor>();
 
             services.AddHttpContextAccessor();
             services.AddSession();

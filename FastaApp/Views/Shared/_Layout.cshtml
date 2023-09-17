@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-toggleable-sm navbar-light bg-white">
-            <div class="container py-1 d-flex justify-content-between">
-                <a class="navbar-brand font-weight-bold" asp-area="" asp-controller="Home" asp-action="Index">Fasta</a>
+        <nav class="navbar navbar-expand-lg navbar-toggleable-sm navbar-light bg-white fixed-top">
+            <div class="container-fluid py-1 d-flex justify-content-between">
+                <a class="navbar-brand font-weight-bolder" asp-area="" asp-controller="Home" asp-action="Index">Fasta</a>
                 <div move-navlinks>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="navbar-collapse collapse d-flex nav-link-container">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav align-items-center">
                             <li class="nav-item mr-2">
                                 <a class="nav-link text-dark font-weight-normal" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                             </li>
@@ -33,17 +35,18 @@
                                 <a class="nav-link text-dark font-weight-normal" asp-area="" asp-controller="Home" asp-action="Index">Locations</a>
                             </li>
                             @*<li class="nav-item">
-                                    <a class="nav-link text-dark font-weight-normal" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                                </li>*@
+                                <a class="nav-link text-dark font-weight-normal" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            </li>*@
+                            <partial name="_SignInPartial" />
                         </ul>
-                        <a class="btn btn-primary active" asp-controller="User" asp-action="Login">Sign in</a>
+                        
 
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container mx-auto p-3">
+    <div class="container-fluid mx-auto">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -56,7 +59,7 @@
     else
     {
         <footer class="border-top footer text-muted">
-            <div class="container d-flex justify-content-center align-content-center p-3 add-footer-style set-fs">
+            <div class="container-fluid d-flex justify-content-center align-content-center p-3 add-footer-style set-fs">
                 <div>
                     <h2 class="text-decoration-none dark"><a asp-area="" asp-controller="Home" asp-action="Index">Fasta</a></h2>
                     <p class="add-mb">Rides for the daily achievers</p>
