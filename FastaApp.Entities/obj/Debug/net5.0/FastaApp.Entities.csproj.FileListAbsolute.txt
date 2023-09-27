@@ -10,3 +10,6 @@ C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\obj\Debug
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\obj\Debug\net5.0\FastaApp.Entities.dll
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\obj\Debug\net5.0\ref\FastaApp.Entities.dll
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\obj\Debug\net5.0\FastaApp.Entities.pdb
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\bin\Debug\net5.0\FastaApp.Common.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\bin\Debug\net5.0\FastaApp.Common.pdb
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Entities\obj\Debug\net5.0\FastaApp.Entities.csproj.CopyComplete

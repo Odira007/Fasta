@@ -46,7 +46,7 @@
     <div class="text-center carousel-header-text feat-child">
         <h2 class="fs1">Our Featured Cars</h2>
     </div>
-    <div class="slide-container">
+    <div class= @Model.cars.Count > 0 ? "slide-container" : "do-not-show">
         @foreach (var car in Model.cars)
         {
             <partial name="_CarCard" model="car" />

@@ -14,6 +14,8 @@ using System.Threading.Tasks;
 using FastaApp.Core.Interfaces;
 using FastaApp.Core.Implementations;
 using FastaApp.Helpers;
+using FastaApp.Persistence.Interfaces;
+using FastaApp.Persistence.Repositories;
 
 namespace FastaApp
 {
@@ -33,9 +35,10 @@ namespace FastaApp
             //        options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             //services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<AppDbContext>();
 
-            services.AddScoped<ICarRepository, CarRepository>();
+            services.AddScoped<ICarService, CarService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<RandomColor>();
+            services.AddScoped<IAdminRepository, AdminRepository>();
 
             services.AddHttpContextAccessor();
             services.AddSession();
@@ -70,7 +73,7 @@ namespace FastaApp
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=User}/{action=Login}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

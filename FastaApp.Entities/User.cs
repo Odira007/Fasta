@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace FastaApp.Entities
@@ -6,7 +7,7 @@ namespace FastaApp.Entities
     public partial class User
     {
         [Key]
-        public string Id { get; set; }
+        public string Id { get; set; } = Guid.NewGuid().ToString();
 
         [Required(ErrorMessage = "First name is required.")]
         [DataType(DataType.Text)]
@@ -34,7 +35,6 @@ namespace FastaApp.Entities
         [DataType(DataType.Password)]
         [RegularExpression(@"^(?=.*[A-Z])(?=.*[\W_]).{6,20}$",
             ErrorMessage = "Your password should be 6 to 20 characters long, should alphanumeric characters, at least one uppercase letter, and a special character")]
-
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
@@ -45,6 +45,7 @@ namespace FastaApp.Entities
         [DataType(DataType.PhoneNumber)]
         public string PhoneNumber { get; set; }
         public string ProfileColor { get; set; } = "";
-
+        public DateTime DateRegistered { get; set; } = DateTime.Now;
+        public string Role { get; set; } = "User";
     }
 }

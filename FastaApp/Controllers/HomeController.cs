@@ -8,6 +8,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using FastaApp.Persistence;
+using FastaApp.Entities;
+using FastaApp.Core.Interfaces;
 
 namespace FastaApp.Controllers
 {
@@ -15,29 +18,28 @@ namespace FastaApp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        private readonly ICarRepository _carRepository;
+        private readonly ICarService _carService;
 
-        public HomeController(ILogger<HomeController> logger, ICarRepository carRepository)
+        public HomeController(ILogger<HomeController> logger, ICarService carService)
         {
             _logger = logger;
-            _carRepository = carRepository;
+            _carService = carService;
         }
 
 
         public async Task<IActionResult> Index()
         {
-            await FileOperations.SeedCarData(AppFileDbContext.Cars);
+            await FileOperations.SeedCarData(DataStore.Cars);
 
             var carFleetViewModel = new CarFleetViewModel();
 
-            //carFleetViewModel.Cars = _carRepository.Cars;
             carFleetViewModel.cars = FileOperations.ReadCarData<Car>();
             return View(carFleetViewModel);
         }
 
         public IActionResult Details(string id)
         {
-            var car = _carRepository.GetCarById(id);
+            var car = _carService.GetCarById(id);
 
             if (car == null) return NotFound();
 

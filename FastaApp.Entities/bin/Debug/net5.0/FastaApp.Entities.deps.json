@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "FastaApp.Entities/1.0.0": {
+        "dependencies": {
+          "FastaApp.Common": "1.0.0"
+        },
         "runtime": {
           "FastaApp.Entities.dll": {}
+        }
+      },
+      "FastaApp.Common/1.0.0": {
+        "runtime": {
+          "FastaApp.Common.dll": {}
         }
       }
     }
   },
   "libraries": {
     "FastaApp.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FastaApp.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

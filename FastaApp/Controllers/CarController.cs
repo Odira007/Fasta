@@ -1,4 +1,5 @@
-﻿using FastaApp.Helpers;
+﻿using FastaApp.Core.Interfaces;
+using FastaApp.Helpers;
 using FastaApp.Models;
 using FastaApp.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -11,11 +12,11 @@ namespace FastaApp.Controllers
 {
     public class CarController : Controller
     {
-        private readonly ICarRepository _carRepository;
+        private readonly ICarService _carService;
 
-        public CarController(ICarRepository carRepository)
+        public CarController(ICarService carService)
         {
-            _carRepository = carRepository;
+            _carService = carService;
         }
         public ViewResult Fleet()
         {
@@ -23,7 +24,7 @@ namespace FastaApp.Controllers
 
             var carFleetViewModel = new CarFleetViewModel();
 
-            carFleetViewModel.Cars = _carRepository.Cars;
+            carFleetViewModel.cars = _carService.Cars;
             //carFleetViewModel.cars = FileOperations.ReadCarData<Car>();
 
             return View(carFleetViewModel);

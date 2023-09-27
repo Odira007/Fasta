@@ -7,11 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastaApp", "FastaApp\FastaA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastaApp.Helpers", "FastaApp.Helpers\FastaApp.Helpers.csproj", "{ADCC9047-078C-4587-A5BC-5DDF509F8967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastaApp.Entities", "FastaApp.Entities\FastaApp.Entities.csproj", "{E7D5F731-BE48-49E7-9C63-B5F7624C494A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastaApp.Entities", "FastaApp.Entities\FastaApp.Entities.csproj", "{E7D5F731-BE48-49E7-9C63-B5F7624C494A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastaApp.Core", "FastaApp.Core\FastaApp.Core.csproj", "{F2059891-81E3-4DBA-8A13-4473CCE8AD74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastaApp.Core", "FastaApp.Core\FastaApp.Core.csproj", "{F2059891-81E3-4DBA-8A13-4473CCE8AD74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastaApp.Persistence", "FastaApp.Persistence\FastaApp.Persistence.csproj", "{E88148B3-925F-450D-9364-948DDFF06D4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastaApp.Persistence", "FastaApp.Persistence\FastaApp.Persistence.csproj", "{E88148B3-925F-450D-9364-948DDFF06D4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastaApp.Common", "FastaApp.Common\FastaApp.Common.csproj", "{54EB52B4-7A3F-47C4-8760-B8D744A14BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastaApp.DTOs", "FastaApp.DTOs\FastaApp.DTOs.csproj", "{DF32D2F8-C19B-44FC-9776-C69038CB1A38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{E88148B3-925F-450D-9364-948DDFF06D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E88148B3-925F-450D-9364-948DDFF06D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E88148B3-925F-450D-9364-948DDFF06D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54EB52B4-7A3F-47C4-8760-B8D744A14BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54EB52B4-7A3F-47C4-8760-B8D744A14BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54EB52B4-7A3F-47C4-8760-B8D744A14BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54EB52B4-7A3F-47C4-8760-B8D744A14BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF32D2F8-C19B-44FC-9776-C69038CB1A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF32D2F8-C19B-44FC-9776-C69038CB1A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF32D2F8-C19B-44FC-9776-C69038CB1A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF32D2F8-C19B-44FC-9776-C69038CB1A38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FastaApp.Models
+namespace FastaApp.Common
 {
-    public interface IUserRepository
+    public enum Transmission
     {
-        
+        Manual,
+        Automatic,
+        CVT
     }
 }

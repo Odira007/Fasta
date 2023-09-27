@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "FastaApp.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/FastaApp.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FastaApp.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FastaApp.Common/1.0.0": {
+      "type": "project",
+      "path": "../FastaApp.Common/FastaApp.Common.csproj",
+      "msbuildProject": "../FastaApp.Common/FastaApp.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "FastaApp.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Common\\FastaApp.Common.csproj": {
+              "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\source\\repos\\FastaApp\\FastaApp.Common\\FastaApp.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

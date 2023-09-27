@@ -17,3 +17,5 @@ C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Core\obj\Debug\net
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Core\obj\Debug\net5.0\FastaApp.Core.dll
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Core\obj\Debug\net5.0\ref\FastaApp.Core.dll
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Core\obj\Debug\net5.0\FastaApp.Core.pdb
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Core\bin\Debug\net5.0\FastaApp.Common.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Core\bin\Debug\net5.0\FastaApp.Common.pdb

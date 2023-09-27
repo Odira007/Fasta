@@ -9,6 +9,9 @@ namespace FastaApp.Core.Interfaces
 {
     public interface IUserService
     {
-        Task CreateUser(User user);
+        Task AddNewUser(User user);
+        Task GetAllUsers();
+        Task GetUserById(string id);
+        Task DeleteUser(string id);
     }
 }

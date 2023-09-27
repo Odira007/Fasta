@@ -15,3 +15,5 @@ C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Helpers\bin\Debug\
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Helpers\bin\Debug\net5.0\FastaApp.Entities.pdb
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Helpers\bin\Debug\net5.0\FastaApp.Persistence.pdb
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Helpers\obj\Debug\net5.0\FastaApp.Helpers.csproj.CopyComplete
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Helpers\bin\Debug\net5.0\FastaApp.Common.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp.Helpers\bin\Debug\net5.0\FastaApp.Common.pdb

@@ -178,3 +178,15 @@ C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\F
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\FastaApp.Core.pdb
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\user.json
 C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\obj\Debug\net5.0\Razor\Views\Shared\_SignInPartial.cshtml.g.cs
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\FastaApp.Common.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\FastaApp.Common.pdb
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\source\repos\FastaApp\FastaApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
